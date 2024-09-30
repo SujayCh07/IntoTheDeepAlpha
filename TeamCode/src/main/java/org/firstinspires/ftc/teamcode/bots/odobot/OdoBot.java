@@ -22,7 +22,7 @@ public class OdoBot extends LinearOpMode{
             myDriveTrain.drive();
 
             //--------------------- TELEMETRY Code --------------------------------------------
-            // Useful telemetry data in case needed for testing and to find heading of robot
+            // Useful telemetry data in case needed for testing and to find heading
             myDriveTrain.getTelemetryData();
             telemetry.update();
         }
