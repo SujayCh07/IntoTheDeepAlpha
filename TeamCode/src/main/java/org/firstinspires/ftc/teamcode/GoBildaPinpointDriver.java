@@ -93,7 +93,8 @@ public class GoBildaPinpointDriver extends I2cDeviceSynchDevice<I2cDeviceSynchSi
     }
 
 
-    //Register map of the i2c device
+    //Register map of the i2c deviceB
+
     private enum Register {
         DEVICE_ID       (1),
         DEVICE_VERSION  (2),
